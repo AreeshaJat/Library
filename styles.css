@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Robotodisplay=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    background-color: #0ea5e9;
+    height: 100vh;
+    color: white;
+    grid-column: 1;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px;
+}
+
+.logo-text h1 {
+    font-size: 25px;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.icon-text p {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 20px 40px;
+}
+
+.main {
+    background-color: #d4d4d4;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    border-left: 5px solid #facc15;
+    border-radius: 10px;
+    width: calc(30% - 20px);
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5px;
+    flex: 1 1 auto;
+}
+
+.card h6 {
+    font-size: 20px;
+}
+
+.author, .pages, .read {
+    padding-left: 40px;
+}
