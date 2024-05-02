@@ -27,66 +27,46 @@
             </div>
         </div>
         <div class="main">
-            <h6>Your Books</h6>
-            <div class="content">
-                <div class="cards">
-                    <div class="card">
-                        <div class="book-title">
-                            <h6>Super Cool Projects</h6>
-                        </div>
-                        <div class="author">
-                            <p>John Green</p>
-                        </div>
-                        <div class="pages">
-                            <p>Pages</p>
-                        </div>
-                        <div class="read">
-                            <p>Read</p>
-                        </div>
+            <div class="topPortion">
+                <div class="icon-title">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                            <title>bookshelf</title>
+                            <path d="M9 3V18H12V3H9M12 5L16 18L19 17L15 4L12 5M5 5V18H8V5H5M3 19V21H21V19H3Z" />
+                        </svg>
                     </div>
-                    <div class="card">
-                        <div class="book-title">
-                            <h6>Super Cool Projects</h6>
-                        </div>
-                        <div class="author">
-                            <p>John Green</p>
-                        </div>
-                        <div class="pages">
-                            <p>Pages</p>
-                        </div>
-                        <div class="read">
-                            <p>Read</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="book-title">
-                            <h6>The Fault in Our Stars</h6>
-                        </div>
-                        <div class="author">
-                            <p>John Green</p>
-                        </div>
-                        <div class="pages">
-                            <p>Pages</p>
-                        </div>
-                        <div class="read">
-                            <p>Read</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="book-title">
-                            <h6>Super Cool Projects</h6>
-                        </div>
-                        <div class="author">
-                            <p>John Green</p>
-                        </div>
-                        <div class="pages">
-                            <p>Pages</p>
-                        </div>
-                        <div class="read">
-                            <p>Read</p>
+                    <h6>Your Books</h6>
+                </div>
+                <button id="add">Add Book</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Welcome to my Library</p>
+                        <form>
+                            <label for="book_title">Title:</label>
+                            <input type="text" id="book_title" name="book_title">
+                        </form>
+                        <form>
+                            <label for="book_author">Author:</label>
+                            <input type="text" id="book_author" name="book_author">
+                        </form>
+                        <form>
+                            <label for="book_pages">Pages:</label>
+                            <input type="text" id="book_pages" name="book_pages">
+                        </form>
+                        <form>
+                            <label for="read">Read:</label>
+                            <input type="text" id="read" name="read">
+                        </form>
+                        <div class="modal-buttons">
+                            <button id="submit"><h5>Submit</h5></button>
+                            <button id="cancel"><h5>Cancel</h5></button>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="content">
+                <div class="cards"></div>
             </div>
         </div>
     </div>
