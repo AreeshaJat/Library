@@ -65,7 +65,12 @@ function displayOnPage () {
 
         //Adding event listener to toggle read status
         readToggleButton.addEventListener('click', function() {
-            //Toggling the book's read status
+            //Toggling the book's read status, if book.read is 
+            //true (indicating the book is read), it will be set 
+            //to false (indicating the book is unread), and vice versa. 
+            //This effectively changes the read status each time the 
+            //button is clicked.
+            //The ! operator is used to invert the boolean value of book.read
             book.read = !book.read;
             displayOnPage();
         });
