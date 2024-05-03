@@ -2,7 +2,7 @@ const myLibrary = [];
 
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("add");
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementById("close");
 var cancel = document.getElementById("cancel");
 var submit = document.getElementById("submit");
 
