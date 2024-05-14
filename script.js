@@ -116,20 +116,18 @@ function submitInfo () {
     const book_title = document.getElementById("book_title").value;
     const book_author = document.getElementById("book_author").value;
     const book_pages = document.getElementById("book_pages").value;
-    let read = document.getElementById("read").value;
 
-    if (book_title == "" || book_author == "" || book_pages == "" || read == "") {
+    if (book_title == "" || book_author == "" || book_pages == "") {
         alert("Please provide input for all fields");
         return;
     }
 
-    addBookToLibrary(book_title, book_author, book_pages, read);
+    addBookToLibrary(book_title, book_author, book_pages);
 
     //clear input fields
     document.getElementById("book_title").value = "";
     document.getElementById("book_author").value = "";
     document.getElementById("book_pages").value = "";
-    document.getElementById("read").value = "";
 
     //close the modal
     closeModal();
