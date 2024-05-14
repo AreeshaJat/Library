@@ -35,7 +35,7 @@ function displayOnPage () {
     cardsContainer.innerHTML = "";
 
     for (let i = 0; i < myLibrary.length; i++) {
-        var book = myLibrary[i];
+        let book = myLibrary[i];
 
         var card = document.createElement("div");
         card.className = "card";
