@@ -6,12 +6,22 @@ var span = document.getElementById("close");
 var cancel = document.getElementById("cancel");
 var submit = document.getElementById("submit");
 
-function Book(title, author, pages, read) {
+//converted the function to a class
+class Book {
+    constructor(title, author, pages, read) {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.read = read;
+    }
+}
+
+/*function Book(title, author, pages, read) {
     this.title = title;
     this.author = author;
     this.pages = pages;
     this.read = read; 
-}
+}*/
 
 function addBookToLibrary (title, author, pages, read) {
     let book = new Book(title, author, pages, read);
