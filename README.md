@@ -23,5 +23,7 @@ The project is based on the development of a responsive and interactive web page
 ## Viewing the Webpage
 To view the completed webpage, follow this link: [Live Demo](https://areeshajat.github.io/Library/)
 
-https://github.com/AreeshaJat/Library/assets/106934155/a96ccf36-f9ee-480d-91b7-6860ebdafca2
+https://github.com/AreeshaJat/Library/assets/106934155/f7bd92dc-0d96-4cb7-bfb5-65521c856c3f
+
+
 
